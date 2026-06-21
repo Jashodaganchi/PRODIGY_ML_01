@@ -1,0 +1,4 @@
+Model trained successfully
+Mean Absolute Error: 35788.061292436294
+R2 Score: 0.6341189942328371
+Predicted price for house: 240377.51479736285

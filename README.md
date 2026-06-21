@@ -22,3 +22,6 @@ Kaggle House Prices Dataset
 
 ## Result
 Successfully predicted house prices using Linear Regression.
+
+## Output
+The model results are stored in output.txt and output.png for reference.

@@ -34,3 +34,12 @@ example= pd.DataFrame({
 })
 predicted_price = model.predict(example)
 print("Predicted price for house:", predicted_price[0])
+
+# Save output to file
+with open("output.txt", "w") as file:
+    file.write("Model trained successfully\n")
+    file.write(f"Mean Absolute Error: {mae}\n")
+    file.write(f"R2 Score: {r2}\n")
+    file.write(f"Predicted price for house: {predicted_price[0]}\n")
+
+print("Results saved to output.txt")
